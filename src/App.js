@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -33,33 +33,40 @@ function App() {
         </Switch>
       </div>
     </Router>
-
   );
 }
 
 function Home() {
-  return <div className="App">
-    <p>
-      Edit <code>src/App.js</code> and save to reload.
-    </p>
-  </div>
+  return (
+    <div className="App">
+      <p>
+        Edit <code>src/App.js</code> and save to reload.
+      </p>
+    </div>
+  );
 }
 
 function About() {
-  return <div className="App">
-    <p>About page</p>
-  </div>
+  return (
+    <div className="App">
+      <p>About page</p>
+    </div>
+  );
 }
 
 function Dashboard() {
-  return <div className="App">
-    <p>Dashboard</p>
-  </div>
+  return (
+    <div className="App">
+      <p>Dashboard</p>
+    </div>
+  );
 }
 
 function NotFound() {
-  return <div className="App">
-    <p>Sorry, cant't find that.</p>
-  </div>
+  return (
+    <div className="App">
+      <p>Sorry, cant't find that.</p>
+    </div>
+  );
 }
 export default App;
